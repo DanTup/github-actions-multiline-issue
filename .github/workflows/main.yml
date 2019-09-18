@@ -36,5 +36,6 @@ jobs:
           pub global activate --no-executables args 1.5.0
           pub global activate --no-executables meta 1.1.6
           pub global activate --no-executables pedantic 1.4.0
+        shell: powershell
         
       - run: pub global list
